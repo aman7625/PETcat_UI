@@ -1,4 +1,4 @@
-# PETcat_simulator
+# PETcat_UI
 
 User interface modules for PETCat, the long term project.
 
