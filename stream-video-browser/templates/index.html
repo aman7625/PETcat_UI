@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Pi Video Surveillance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+   
+  </head>
+  <body>
+    <h1>Pi Video Surveillance</h1>
+   <img src="{{ url_for('video_feed') }}">
+   <button id="0" class="Submit_button">Right</button>
+   <button id="1" class="Submit_button">Backward</button>
+   <button id="2" class="Submit_button">Left</button>
+   <button id="3" class="Submit_button">Forward</button> 
+
+  <script type="text/javascript" >
+   document.getElementById("0").onclick = function() { location.href="http://localhost:5000/index/0"};
+   document.getElementById("1").onclick = function() { location.href="http://localhost:5000/index/1"};
+   document.getElementById("2").onclick = function() { location.href="http://localhost:5000/index/2"};
+   document.getElementById("3").onclick = function() { location.href="http://localhost:5000/index/3"};
+</script>  
+  
+  </script>
+
+  </body>
+</html>
